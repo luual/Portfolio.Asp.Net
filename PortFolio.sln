@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Application", "src\Application\PortFolio.Application\PortFolio.Application.csproj", "{AC5DB76E-DF0A-4325-B29B-949FE1F0862B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.WebApi", "src\WebApi\PortFolio.WebApi\PortFolio.WebApi.csproj", "{F4D7A9BA-6B11-4688-B87E-2428E6159D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Domain", "src\PortFolio.Domain\PortFolio.Domain.csproj", "{66FAD942-2752-4C9F-A0E7-773018E2F3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Infrastructure", "src\PortFolio.Infrastructure\PortFolio.Infrastructure.csproj", "{09F384C5-6374-4CA8-A987-376630CDCF6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC5DB76E-DF0A-4325-B29B-949FE1F0862B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5DB76E-DF0A-4325-B29B-949FE1F0862B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5DB76E-DF0A-4325-B29B-949FE1F0862B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5DB76E-DF0A-4325-B29B-949FE1F0862B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D7A9BA-6B11-4688-B87E-2428E6159D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D7A9BA-6B11-4688-B87E-2428E6159D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D7A9BA-6B11-4688-B87E-2428E6159D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D7A9BA-6B11-4688-B87E-2428E6159D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FAD942-2752-4C9F-A0E7-773018E2F3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FAD942-2752-4C9F-A0E7-773018E2F3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FAD942-2752-4C9F-A0E7-773018E2F3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FAD942-2752-4C9F-A0E7-773018E2F3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+	EndGlobalSection
+EndGlobal

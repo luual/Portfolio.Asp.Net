@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="MediatR" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\Enums" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\PortFolio.Domain\PortFolio.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
