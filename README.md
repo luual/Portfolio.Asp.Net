@@ -1,2 +1,4 @@
+[![Build Status](https://app.travis-ci.com/luual/Portfolio.Asp.Net.svg?branch=main)](https://app.travis-ci.com/luual/Portfolio.Asp.Net)
+
 # Portfolio.Asp.Net
-First Project in ASP.NET
+My first project in ASP.NET.
