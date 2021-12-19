@@ -5,11 +5,7 @@
     <projectFile profileName="PortFolio.WebApi">src/WebApi/PortFolio.WebApi/PortFolio.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/SimpleDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/SimpleDataController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639695694047</updated>
-      <workItem from="1639695703237" duration="4059000" />
+      <workItem from="1639695703237" duration="4311000" />
     </task>
     <task id="LOCAL-00001" summary="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project">
       <created>1639697153514</created>

@@ -1,2 +1,3 @@
 language: csharp
+dotnet: 5.0.2
 solution: PortFolio.sln
