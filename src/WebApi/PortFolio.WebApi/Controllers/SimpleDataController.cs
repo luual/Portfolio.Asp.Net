@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Net.Http;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -22,5 +21,13 @@ public class SimpleDataController : ControllerBase
     public async Task<IActionResult> Get()
     {
         return Ok(await _mediator.Send(new GetSimpleDataQuery()));
+    }
+
+    [HttpGet("price")]
+    public async Task<IActionResult> GetPrice()
+    {
+         HttpClient client = new HttpClient();
+         var data = await client.GetAsync("https://api.binance.com/api/v3/ticker/price?symbol=SOLUSDT");
+        return Ok(await data.Content.ReadAsStringAsync());
     }
 }

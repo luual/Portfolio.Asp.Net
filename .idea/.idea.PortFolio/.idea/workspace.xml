@@ -5,9 +5,10 @@
     <projectFile profileName="PortFolio.WebApi">src/WebApi/PortFolio.WebApi/PortFolio.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="Add missing files">
+    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/SimpleDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/SimpleDataController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639695694047</updated>
-      <workItem from="1639695703237" duration="1687000" />
+      <workItem from="1639695703237" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project">
       <created>1639697153514</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639697191661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update gitignore file">
+      <created>1639697597646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639697597646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +129,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project" />
     <MESSAGE value="Add missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing files" />
+    <MESSAGE value="update gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore file" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Net.Http.HttpResponseMessage" memberName="Content" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
