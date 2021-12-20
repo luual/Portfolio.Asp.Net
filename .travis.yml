@@ -1,3 +1,6 @@
 language: csharp
 dotnet: 5.0.2
+script:
+- dotnet restore 
+- dotnet build
 solution: PortFolio.sln
