@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Domain", "src\Por
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Infrastructure", "src\PortFolio.Infrastructure\PortFolio.Infrastructure.csproj", "{09F384C5-6374-4CA8-A987-376630CDCF6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C8FA7A13-FA16-43D2-86E4-D627442783E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortFolio.Application.Tests", "tests\PortFolio.Application.Tests\PortFolio.Application.Tests.csproj", "{D630BC04-F31B-4D72-99E6-EA527653BB61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +35,18 @@ Global
 		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09F384C5-6374-4CA8-A987-376630CDCF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D630BC04-F31B-4D72-99E6-EA527653BB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D630BC04-F31B-4D72-99E6-EA527653BB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D630BC04-F31B-4D72-99E6-EA527653BB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D630BC04-F31B-4D72-99E6-EA527653BB61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$0.VersionControlPolicy = $2
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D630BC04-F31B-4D72-99E6-EA527653BB61} = {C8FA7A13-FA16-43D2-86E4-D627442783E5}
 	EndGlobalSection
 EndGlobal

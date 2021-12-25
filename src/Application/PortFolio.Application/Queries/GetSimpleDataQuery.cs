@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using MediatR;
 using PortFolio.Application.Common.Interfaces.Repositories;
 
@@ -13,10 +14,12 @@ public class GetSimpleDataQuery : IRequest<string[]>
 public class GetSimpleDataQueryHandler : IRequestHandler<GetSimpleDataQuery, string[]>
 {
     private readonly ISimpleDataRepository _simpleDataRepository;
+    private readonly IMapper _mapper;
 
-    public GetSimpleDataQueryHandler(ISimpleDataRepository simpleDataRepository)
+    public GetSimpleDataQueryHandler(ISimpleDataRepository simpleDataRepository, IMapper mapper)
     {
         _simpleDataRepository = simpleDataRepository;
+        _mapper = mapper;
     }
 
     public Task<string[]> Handle(GetSimpleDataQuery request, CancellationToken cancellationToken)

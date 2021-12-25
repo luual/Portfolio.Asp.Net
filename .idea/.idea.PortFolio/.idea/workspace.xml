@@ -5,7 +5,25 @@
     <projectFile profileName="PortFolio.WebApi">src/WebApi/PortFolio.WebApi/PortFolio.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file" />
+    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file">
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IAssetRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Mappers/AutoProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Mappers/IMapFrom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/UserModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/WalletModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetWalletsQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Asset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/AssetPairs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Wallet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/Mappers/MapClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortFolio.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PortFolio.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetSimpleDataQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetSimpleDataQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PortFolio.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Startup.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +34,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3834795bf41b4e628161509eca0f58228200/e3/a9eab163/IBaseRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd18258c18794eba8dd32ca0f36fab8b8d7e00/66/f29511fa/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,6 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -78,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639695694047</updated>
-      <workItem from="1639695703237" duration="4311000" />
+      <workItem from="1639695703237" duration="12957000" />
     </task>
     <task id="LOCAL-00001" summary="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project">
       <created>1639697153514</created>
@@ -126,7 +154,7 @@
     <MESSAGE value="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project" />
     <MESSAGE value="Add missing files" />
     <MESSAGE value="update gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
