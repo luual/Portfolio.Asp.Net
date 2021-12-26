@@ -1,4 +1,3 @@
-const {app, remote} = require('electron')
 const axios = require('axios');
 
 const btn = document.getElementById('btn')

@@ -6,10 +6,17 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
     <script defer src="./scripts/renderer.js"></script>
+    <script defer src="./scripts/wallets_rendering.js"></script>
     <title>Hello World!</title>
   </head>
   <body>
     <nav>
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
     </nav>
     <h1>Hello World!!!</h1>
     Nous utilisons Node.js <span id="node-version"></span>,
@@ -19,7 +26,19 @@
     <div>
       <button id="btn">Click</button>
       <input type="button" id="button" value="Click Me" />
+      <div id="Show"></div>
     </div>
-    <div id="Show"></div>
+
+    <div>
+      <input type="button" id="refreshStockPairs" value="Refresh Stock Pairs" />
+      <ul id="stockPairs">
+      </ul>
+    </div>
+
+    <div>
+      <button id="refreshWallets">Refresh Wallets</button>
+      <ul id="walletsView">
+      </ul>
+    </div>
   </body>
 </html>
