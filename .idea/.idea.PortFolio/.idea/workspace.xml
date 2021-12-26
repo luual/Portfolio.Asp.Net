@@ -5,24 +5,42 @@
     <projectFile profileName="PortFolio.WebApi">src/WebApi/PortFolio.WebApi/PortFolio.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="update gitignore file">
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IAssetRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Mappers/AutoProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Mappers/IMapFrom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/UserModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/WalletModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetWalletsQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Asset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/AssetPairs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Wallet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/Mappers/MapClass.cs" afterDir="false" />
+    <list default="true" id="09310324-6796-4e63-abca-3a94a2aac5d6" name="Changes" comment="First bootstrap for modelling Portfolio">
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Commands/StockValuesCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Enums/ResponseHandlerState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/ICurrencyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IStockRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IStockValueRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IStockWalletRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IWalletRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Models/IAssetOwned.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/AssetsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/StockOwned.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/StockValueModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetStockValuesQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Currency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Stock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/StockValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Infrastructure/Repositories/CurrencyTestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Infrastructure/Repositories/StockTestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Infrastructure/Repositories/StockValueTestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortFolio.Infrastructure/Repositories/WalletTestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/WalletsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/StockValues/GetStockValuesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/StockValues/SaveStockValueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/Wallets/GetWallets.Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PortFolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortFolio.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PortFolio.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetSimpleDataQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetSimpleDataQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PortFolio.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Repositories/IAssetRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Responses/IResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Common/Interfaces/Responses/IResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/WalletModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Models/WalletModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/PortFolio.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/PortFolio.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetWalletsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/PortFolio.Application/Queries/GetWalletsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/Asset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/StockWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PortFolio.Domain/Entities/AssetPairs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/PortFolio.UI.Electron/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/PortFolio.UI.Electron/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/PortFolio.UI.Electron/scripts/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/PortFolio.UI.Electron/scripts/renderer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/PortFolio.Application.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PortFolio.Application.Tests/PortFolio.Application.Tests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +49,28 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b6d9aef891d740fada4474a66a67cc9d76348d742c9818aa2f7592a2e55aa7/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3834795bf41b4e628161509eca0f58228200/e3/a9eab163/IBaseRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,6 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.2397541" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -106,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639695694047</updated>
-      <workItem from="1639695703237" duration="12957000" />
+      <workItem from="1639695703237" duration="23703000" />
     </task>
     <task id="LOCAL-00001" summary="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project">
       <created>1639697153514</created>
@@ -129,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639697597646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First bootstrap for modelling Portfolio">
+      <created>1640464516053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640464516053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,9 +194,27 @@
     <MESSAGE value="PortFolio.Asp.Net:&#10;&#10;First Bootstrap for ASP.Net Project" />
     <MESSAGE value="Add missing files" />
     <MESSAGE value="update gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="First bootstrap for modelling Portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="First bootstrap for modelling Portfolio" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/WalletsController.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/src/WebApi/PortFolio.WebApi/Controllers/WalletsController.cs" initialLine="31" containingFunctionPresentation="method 'SaveStockPairs'">
+            <startOffsets>
+              <option value="734" />
+            </startOffsets>
+            <endOffsets>
+              <option value="764" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Net.Http.HttpResponseMessage" memberName="Content" />

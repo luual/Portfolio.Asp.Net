@@ -11,10 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Common\Enums" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\..\PortFolio.Domain\PortFolio.Domain.csproj" />
     </ItemGroup>
 

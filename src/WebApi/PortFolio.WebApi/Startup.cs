@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using PortFolio.Application.Common.Interfaces.Repositories;
 using PortFolio.Application.Common.Mappers;
 using PortFolio.Application.Queries;
+using PortFolio.Domain.Entities;
 using PortFolio.Infrastructure.Repositories;
 
 namespace PortFolio.WebApi
@@ -26,7 +27,13 @@ namespace PortFolio.WebApi
         {
             services.AddControllers();
             services.AddMediatR(typeof(GetSimpleDataQuery));
-            services.AddTransient<ISimpleDataRepository, SimpleDataRepository>();
+            services.AddSingleton<ISimpleDataRepository, SimpleDataRepository>();
+            services.AddSingleton<IStockValueRepository, StockValueTestRepository>();
+            services.AddSingleton<ICurrencyRepository, CurrencyTestRepository>();
+            services.AddSingleton<IWalletRepository, WalletTestRepository>();
+            services.AddSingleton<IStockRepository, StockTestRepository>();
+            services.AddSingleton<IStockWalletRepository, StockWalletTestRepository>();
+            
             services.AddTransient(t => new MapperConfiguration(x => x.AddProfile<AutoProfile>()).CreateMapper());
         }
 
