@@ -15,20 +15,24 @@ namespace PortFolio.Infrastructure.Repositories
         {
             _stockValues = new Dictionary<(int stockId, int currencyId), StockValue>()
             {
-                {(1, 1), new StockValue()
                 {
-                    Id = 1,
-                    CurrencyId = 1,
-                    StockId = 1,
-                    ValueInCurrency = 500,
-                }},
-                {(2, 1), new StockValue()
+                    (1, 1), new StockValue()
+                    {
+                        Id = 1,
+                        CurrencyId = 1,
+                        StockId = 1,
+                        ValueInCurrency = 500,
+                    }
+                },
+                {
+                    (2, 1), new StockValue()
                     {
                         Id = 2,
                         CurrencyId = 1,
                         StockId = 2,
                         ValueInCurrency = 732,
-                    } }
+                    }
+                }
             };
         }
         public ICollection<StockValue> Get(Expression<Func<StockValue, bool>> filter)

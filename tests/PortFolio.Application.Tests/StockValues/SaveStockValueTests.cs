@@ -14,12 +14,13 @@ namespace PortFolio.Application.Tests.StockValues
         {
             // Create a new StockValue Apple EUR at 123 price
             // Arrange
-            var command = new SaveStockValueCommand(2, 1, 123);
             var stockValueTestRepository = new StockValueTestRepository();
-            var handler = new SaveStockValuesCommandHandler(stockValueTestRepository);
-            var getCommand = new GetStockValuesQuery(x => x.CurrencyId == 2 && x.StockId == 1);
             var stockTestRepository = new StockTestRepository();
             var currencyTestRepository = new CurrencyTestRepository();
+
+            var command = new SaveStockValueCommand(1, 2, 123);
+            var handler = new SaveStockValuesCommandHandler(stockValueTestRepository);
+            var getCommand = new GetStockValuesQuery(x => x.CurrencyId == 2 && x.StockId == 1);
             var getHandler = new GetStockValuesQueryHandler(stockValueTestRepository,
                 currencyTestRepository, stockTestRepository);
             // Act

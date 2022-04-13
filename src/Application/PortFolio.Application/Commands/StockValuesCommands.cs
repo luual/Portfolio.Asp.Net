@@ -10,6 +10,12 @@ namespace PortFolio.Application.Commands;
 
 public class SaveStockValueCommand : IRequestWrapper<int>
 {
+    /// <summary>
+    /// Initialize a new Save Stock Request
+    /// </summary>
+    /// <param name="stockId"></param>
+    /// <param name="currencyId"></param>
+    /// <param name="valueInCurrency"></param>
     public SaveStockValueCommand(int stockId, int currencyId, decimal valueInCurrency)
     {
         CurrencyId = currencyId;
